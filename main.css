@@ -1,33 +1,71 @@
 .container {
 
     margin: auto 100px;
-    background-color: rgb(90, 76, 90);
+    background-color: #1b1627;
     color: white;
     padding: 30px;
+    text-align: center;
+    width: 700px;
+}
+
+.container h1 {
+    color: rgb(134, 131, 131);
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
 }
 
 .referrals {
     display: flex;
-
+    justify-content: space-between;
     list-style: none;
+
 }
 
-.referrals>li {
-    margin-left: 150px;
+.referrals li {
+    font-size: 14px;
+}
+
+.referrals li:first-child {
+    color: rgb(134, 131, 131);
+    font-weight: bold;
 }
 
 .container .progress {
     height: 22px;
-    background-color: purple;
-    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(255 255 255 / 15%);
+    border-radius: 20px;
     display: flex;
+    justify-content: space-evenly;
 
 }
 
 .container .progress>div {
     width: 1px;
     height: 20px;
-    background-color: #fff;
+    background-color: white;
     display: flex;
-    margin-left: 200px;
+
+}
+
+.reward {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: #50ae55;
+}
+
+.reward li {
+    font-size: 14px;
+}
+
+.reward li:first-child {
+    color: rgb(134, 131, 131);
+    font-weight: bold;
+}
+
+.reward img {
+    width: 20px;
+    height: 20px;
 }
